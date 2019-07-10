@@ -1,0 +1,10 @@
+#ifndef __CORE_CONFIG_H__
+#define __CORE_CONFIG_H__
+
+#define CONFIG_ENV_SIZE 			0x20000 
+#define CONFIG_SYS_MALLOC_SIZE		(CONFIG_ENV_SIZE + 128*1024)
+#define CONFIG_SYS_GBL_DATA_SIZE	128
+
+#define CONFIG_STACK_SIZE_IRQ		(4*1024)
+
+#endif
